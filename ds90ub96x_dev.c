@@ -49,4 +49,4 @@ static void __exit ds90ub96x_drv_exit(void)
         i2c_del_driver(&ds90ub96x_driver);
 }
 module_exit(ds90ub96x_drv_exit);
-MODULE_LICENSE("GPL");
+MODULE_LICENSE("GPL v2");
